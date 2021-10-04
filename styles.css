@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.dice {
+.dice1 , .dice2 {
   text-align: center;
   display: inline-block;
 
@@ -40,7 +40,6 @@ footer {
 
 }
 .button{
-  align-items: center;
   padding-top: 5%;
 
 }
@@ -55,4 +54,13 @@ footer {
 .footer{
   text-align: center;
   font-family: cursive;
+}
+/* media wuery */
+@media (max-width: 1028px){
+  img{
+    width: 30%;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }
